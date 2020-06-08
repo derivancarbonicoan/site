@@ -58,6 +58,30 @@
     left: 200px;
 }
 
+.posicao_img_sassmaq {
+    position: relative;
+    top: -500px;
+    left: 200px;
+}
+
+.posicao_img_certificado_sassmaq {
+    position: relative;
+    top: -662px;
+    left: 450px;
+}
+
+.posicao_img_despoluir {
+    position: relative;
+    top: -820px;
+    left: 890px;
+}
+
+.posicao_img10 {
+    position: relative;
+    top: -500px;
+    left: 200px;
+}
+
 .posicao_texto1 {
     position: relative;
     top: -135px;
@@ -95,6 +119,12 @@
 }
 
 .posicao_texto_visao {
+    position: relative;
+    top: -605px;
+    left: 500px;
+}
+
+.posicao_texto_frota {
     position: relative;
     top: -605px;
     left: 500px;
