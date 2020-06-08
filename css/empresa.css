@@ -34,6 +34,30 @@
     left: 892px;
 }
 
+.posicao_img6 {
+    position: relative;
+    top: -500px;
+    left: 200px;
+}
+
+.posicao_img7 {
+    position: relative;
+    top: -500px;
+    left: 200px;
+}
+
+.posicao_img8 {
+    position: relative;
+    top: -500px;
+    left: 200px;
+}
+
+.posicao_img9 {
+    position: relative;
+    top: -500px;
+    left: 200px;
+}
+
 .posicao_texto1 {
     position: relative;
     top: -135px;
@@ -55,5 +79,31 @@
 .paragrafo2 {
     width: 1000px;
     font-family: sans-serif;
+    text-align: justify;
+}
+
+.posicao_texto_negocio {
+    position: relative;
+    top: -605px;
+    left: 500px;
+}
+
+.posicao_texto_missao {
+    position: relative;
+    top: -605px;
+    left: 500px;
+}
+
+.posicao_texto_visao {
+    position: relative;
+    top: -605px;
+    left: 500px;
+}
+
+.posicao_texto_valores {
+    position: relative;
+    width: 700px;
+    top: -670px;
+    left: 500px;
     text-align: justify;
 }
