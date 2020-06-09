@@ -1,0 +1,77 @@
+.posicao_img_matriz {
+    position: relative;
+    top: 40px;
+    left: 200px;
+}
+
+.posicao_texto_matriz {
+    position: relative;
+    top: -120px;
+    left: 500px;
+}
+
+.posicao_img_sp1 {
+    position: relative;
+    top: 40px;
+    left: 200px;
+}
+
+.posicao_img_sp2 {
+    position: relative;
+    top: 40px;
+    left: 200px;
+}
+
+.posicao_texto_sp {
+    position: relative;
+    top: -120px;
+    left: 500px;
+}
+
+.posicao_img_pe {
+    position: relative;
+    top: 40px;
+    left: 200px;
+}
+
+.posicao_texto_pe {
+    position: relative;
+    top: -120px;
+    left: 500px;
+}
+
+.posicao_img_pb {
+    position: relative;
+    top: 40px;
+    left: 200px;
+}
+
+.posicao_texto_pb {
+    position: relative;
+    top: -120px;
+    left: 500px;
+}
+
+.posicao_img_mg {
+    position: relative;
+    top: 40px;
+    left: 200px;
+}
+
+.posicao_texto_mg {
+    position: relative;
+    top: -120px;
+    left: 500px;
+}
+
+.posicao_img_ba {
+    position: relative;
+    top: 40px;
+    left: 200px;
+}
+
+.posicao_texto_ba {
+    position: relative;
+    top: -120px;
+    left: 500px;
+}
