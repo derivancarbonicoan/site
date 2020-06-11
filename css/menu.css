@@ -1,7 +1,7 @@
 #menu ul {
     padding: 0px;
     margin: 0px;
-    background-color:darkgray;
+    background-color: #F2F2F2;
     list-style: none;
 }
 
@@ -10,11 +10,11 @@
 }
 
 #menu ul li a {
-    padding: 2px 10px;
+    padding: 2px 30px;
     display: inline-block;
     /* visual do link */
-    background-color: darkgray;
-    color: #333;
+    background-color: #F2F2F2;
+    color: dimgrey;
     text-decoration: none;
-    border-bottom: 20px solid darkgray;
+    border-bottom: 20px solid #F2F2F2;
 }

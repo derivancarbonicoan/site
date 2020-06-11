@@ -1,0 +1,17 @@
+#div_rodape {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #F2F2F2;
+}
+
+.posicao_img_webmail {
+    position: relative;
+    left: 200;
+}
+
+.posicao_texto_webmail {
+    position: relative;
+    top: -70px;
+    left: 750px;
+}
