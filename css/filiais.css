@@ -75,3 +75,39 @@
     top: -120px;
     left: 500px;
 }
+
+.posicao_img_pa {
+    position: relative;
+    top: 40px;
+    left: 200px;
+}
+
+.posicao_texto_pa {
+    position: relative;
+    top: -120px;
+    left: 500px;
+}
+
+.posicao_img_pr {
+    position: relative;
+    top: 40px;
+    left: 200px;
+}
+
+.posicao_texto_pr {
+    position: relative;
+    top: -120px;
+    left: 500px;
+}
+
+.posicao_img_rs {
+    position: relative;
+    top: 40px;
+    left: 200px;
+}
+
+.posicao_texto_rs {
+    position: relative;
+    top: -120px;
+    left: 500px;
+}
