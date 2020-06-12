@@ -13,3 +13,15 @@ body {
 h1 {
     margin: 0;
 }
+
+.posicao_mensagem {
+    position: relative;
+    top: -50px;
+    left: 250px;
+}
+
+.posicao_img_baggeto {
+    position: relative;
+    top: 0px;
+    left: 250px;
+}
