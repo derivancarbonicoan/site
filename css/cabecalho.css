@@ -25,3 +25,60 @@ h1 {
     top: 0px;
     left: 250px;
 }
+
+#div_agilidade {
+    position: relative;
+    width: 326px;
+    height: 300px;
+    background-color: #116089;
+    top: -304px;
+    left: 174px;
+    opacity: 0.4;
+}
+
+#div_seguranca {
+    position: relative;
+    width: 326px;
+    height: 300px;
+    background-color: red;
+    top: -604px;
+    left: 500px;
+    opacity: 0.4;
+}
+
+#div_confianca {
+    position: relative;
+    width: 326px;
+    height: 300px;
+    background-color: #116089;
+    top: -904px;
+    left: 826px;
+    opacity: 0.4;
+}
+
+.agilidade {
+    position: relative;
+    color: white;
+    top: -1104px;
+    left: 250px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.seguranca {
+    position: relative;
+    color: white;
+    top: -1170px;
+    left: 565px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.confianca {
+    position: relative;
+    color: white;
+    top: -1237px;
+    left: 900px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
