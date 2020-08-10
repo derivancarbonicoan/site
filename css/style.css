@@ -2,10 +2,12 @@
         color: #116089;
         font-size: 45px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
     }
     
     #menu {
         display: block;
+        text-align: center;
     }
     
     #menu ul {
@@ -50,6 +52,7 @@
     
     header h1 {
         color: #116089;
+        margin-top: 80px;
     }
     
     #logo {
@@ -67,7 +70,12 @@
         margin-top: 30px;
     }
     
+    #imagens img{
+        padding: 50px;
+    }
+    
     @media screen and (min-width: 768px) {
+
         #logo {
             flex-direction: row;
             flex-wrap: wrap;
@@ -85,3 +93,4 @@
             padding: 0 10px;
         }
     }
+    
