@@ -1,0 +1,45 @@
+#menu {
+    display: block;
+}
+
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: #F2F2F2;
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+    transition: background-color 1s;
+}
+
+#menu ul li a {
+    padding: 2px 30px;
+    display: inline-block;
+    /* visual do link */
+    background-color: #F2F2F2;
+    color: dimgrey;
+    text-decoration: none;
+    border-bottom: 20px solid #F2F2F2;
+}
+
+#menu li:hover a {
+    color: #116089;
+    text-decoration: none;
+}
+
+.titulo_azul {
+    color: #116089;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cabecalho {
+    background: white;
+    color: white;
+    padding: 0 20px;
+    height: 100%;
+    font-size: 20px;
+    margin: 0 auto;
+}
