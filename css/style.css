@@ -5,12 +5,8 @@
         text-align: center;
     }
 
-    p2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: justify;
-        padding: 250px;
+    .alinha_esquerda{
+        text-align: right;
     }
 
     #menu {
@@ -92,7 +88,18 @@
         text-align: justify;
         margin-top: 0px;
       }
-      
+      #img2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #img2 div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+  
 
     @media screen and (min-width: 768px) {
 
@@ -126,5 +133,14 @@
             flex-basis: 150px;
             padding: 0 0px;
           }
+
+          #img2{
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            max-width: 1000px;
+            margin: 0 auto;
+          }
+          
     }
     
