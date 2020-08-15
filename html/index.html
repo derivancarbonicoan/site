@@ -20,7 +20,7 @@
 
     <!--Cabeçalho -->
 
-    <header>
+    <header id="topo">
 
         <section id="logo">
 
@@ -39,18 +39,18 @@
     <nav id="menu">
         <ul>
             <br>
-            <li><a href="# ">Principal</a></li>
-            <li><a href="# ">Empresa</a></li>
-            <li><a href="# ">Soluções</a></li>
-            <li><a href="# ">Filiais</a></li>
+            <li><a href="#topo">Principal</a></li>
+            <li><a href="#ir_empresa">Empresa</a></li>
+            <li><a href="#ir_solucoes">Soluções</a></li>
+            <li><a href="#ir_filial">Filiais</a></li>
             <li>
-                <a href="# ">Área de Atuação</a>
+                <a href="#ir_area_atuacao">Área de Atuação</a>
             </li>
             <li>
-                <a href="# ">Contato</a>
+                <a href="#ir_contato">Contato</a>
             </li>
             <li>
-                <a href="# ">Trabalhe Conosco</a>
+                <a target="_blank" href="# ">Trabalhe Conosco</a>
             </li>
         </ul>
     </nav>
@@ -65,7 +65,7 @@
 
     <section class="titulo_azul ">
 
-        <h2>EMPRESA</h2>
+        <h2 id="ir_empresa">EMPRESA</h2>
 
     </section>
 
@@ -271,7 +271,7 @@
 
     <section class="titulo_azul ">
         
-        <h2>SOLUÇÕES</h2>
+        <h2 id="ir_solucoes">SOLUÇÕES</h2>
     
     </section>
 
@@ -289,7 +289,7 @@
 
     <section class="titulo_azul ">
         
-            <h2>FILIAIS</h2>
+            <h2 id="ir_filial">FILIAIS</h2>
         
     </section>
 
@@ -398,7 +398,7 @@
 
     <section class="titulo_azul">
 
-                <h2 >ÁREA DE ATUAÇÃO</h2>
+                <h2 id="ir_area_atuacao">ÁREA DE ATUAÇÃO</h2>
 
     </section>
 
@@ -422,7 +422,7 @@
 
     <section class="titulo_azul ">
         
-        <h2>CONTATO</h2>
+        <h2 id="ir_contato">CONTATO</h2>
 
     </section>
 
@@ -456,19 +456,34 @@
 
     <!--Rodape-->
 
-    <footer >
+    <footer id="empresa">
 
-        <center>
+        <div>
 
-        <img src=" ../img/webmail.png " alt=" " />
-        <p><a target="_blank" href="https://br924.hostgator.com.br:2096/">WebMail</a></p>
+            <img src=" ../img/webmail.png " alt="Imagem WebMail" />
+            <a target="_blank" href="https://br924.hostgator.com.br:2096/">WebMail</a>
 
-        <img src="../img/curriculo.png " alt=" " />
-        <p><a target="_blank" href="https://br924.hostgator.com.br:2096/">Envie Seu Curriculo</a></p>
-
-        </center>
+        </div>
         
+    <div>
+
+        <img src="../img/curriculo.png " alt="Imagem Curriculo" />
+        <a target="_blank" href="https://br924.hostgator.com.br:2096/">Envie Seu Curriculo</a>
+
+    </div>    
+
+    
     </footer>
+
+    <div>
+
+    <center>
+        
+        <a href="#topo"><img src="../img/upload.png" alt="Botao Voltar"></a>
+
+    </center>
+
+    </div>
 
 </body>
 
