@@ -13,15 +13,42 @@
         opacity: 0.1;
     }
 
-    .botao{
+    .botao_webmail{
 
         color: #FFFFFF;
         text-decoration: none;
-        padding: 13px 70px;
+        padding: 11px 60px;
         background-color: #116089;
         font-size: 1.0em;
         border-radius: 4px;
-        
+
+      }      
+
+      .botao_enviar_curriculo{
+
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 11px 60px;
+        background-color: #116089;
+        font-size: 1.0em;
+        border-radius: 4px;
+        background-image: url("../img/curriculo.png");
+        background-repeat: no-repeat; 
+
+      }      
+
+
+    .botao_eventos{
+
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 11px 60px;
+        background-color: #116089;
+        font-size: 1.0em;
+        border-radius: 4px;
+        background-image: url("../img/icone_eventos.png");
+        background-repeat: no-repeat; 
+
       }      
 
     #menu {
