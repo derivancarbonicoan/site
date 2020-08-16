@@ -13,44 +13,6 @@
         opacity: 0.1;
     }
 
-    .botao_webmail{
-
-        color: #FFFFFF;
-        text-decoration: none;
-        padding: 11px 60px;
-        background-color: #116089;
-        font-size: 1.0em;
-        border-radius: 4px;
-
-      }      
-
-      .botao_enviar_curriculo{
-
-        color: #FFFFFF;
-        text-decoration: none;
-        padding: 11px 60px;
-        background-color: #116089;
-        font-size: 1.0em;
-        border-radius: 4px;
-        background-image: url("../img/curriculo.png");
-        background-repeat: no-repeat; 
-
-      }      
-
-
-    .botao_eventos{
-
-        color: #FFFFFF;
-        text-decoration: none;
-        padding: 11px 60px;
-        background-color: #116089;
-        font-size: 1.0em;
-        border-radius: 4px;
-        background-image: url("../img/icone_eventos.png");
-        background-repeat: no-repeat; 
-
-      }      
-
     #menu {
         display: block;
         text-align: center;
@@ -100,6 +62,25 @@
         color: #116089;
         margin-top: 80px;
     }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*background-image: url("../img/solucoes/fundo_solucoes.png");*/
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        text-align: center;
+        padding: 20px;
+    }
+    
+    footer p {
+        color: #116089;
+        margin-top: 80px;
+    }
+
     
     #logo {
         display: flex;
