@@ -8,6 +8,7 @@
     p{
         text-indent: 4.5em;
         text-align: justify;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
     .alinha_no_centro{
@@ -64,8 +65,9 @@
     }
     
     header h1 {
-        color: #116089;
         margin-top: 80px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #116089;
     }
 
     footer {
