@@ -34,6 +34,7 @@
     #menu ul li {
         display: inline;
         transition: background-color 1s;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
     #menu ul li a {
