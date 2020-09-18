@@ -10,6 +10,14 @@
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
+    button{
+      position: absolute;
+      top:5%;
+       left:65%;
+       width: 120px;
+       height: 30px;
+    }
+
     .div_filial{
         width: 300px;
         height: 300px;
