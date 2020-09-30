@@ -145,7 +145,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        /*background-image: url("../img/solucoes/fundo_solucoes.png");*/
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
