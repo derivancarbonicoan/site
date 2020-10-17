@@ -5,6 +5,22 @@
         text-align: center;
     }
 
+    .galeria{
+        margin: 10px 50px;
+    }
+
+    .galeria img{
+        width: 230px;
+        padding: 5px;
+        filter: grayscale(100%);
+        transition: 1s;
+    }
+
+    .galeria img:hover{
+        filter: grayscale(0);
+        transform: scale(1.1);
+    }
+
     p{
         text-align: justify;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
