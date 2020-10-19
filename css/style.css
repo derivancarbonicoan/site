@@ -5,6 +5,16 @@
         text-align: center;
     }
 
+    .min{
+        width: 150px;
+        padding: 10px;
+    }
+
+    .box_img{
+        width: 1000px;
+        margin: 150px auto;
+    }
+
     .galeria{
         margin: 10px 50px;
     }
@@ -12,7 +22,6 @@
     .galeria img{
         width: 230px;
         padding: 5px;
-        filter: grayscale(100%);
         transition: 1s;
     }
 
