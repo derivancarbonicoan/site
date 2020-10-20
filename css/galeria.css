@@ -28,3 +28,10 @@ label img{
     float: left;
 }
 
+#foto2: :checked ~ .principal .slide{
+    margin-left: -100%;
+}
+
+#foto3: :checked ~ .principal .slide{
+    margin-left: -200%;
+}
