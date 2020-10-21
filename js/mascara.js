@@ -94,10 +94,7 @@ function mascaraTelefoneFixo(telefone){
     if(telefone.value.length == 3)
         telefone.value = telefone.value + ')'; 
 
-        if(telefone.value.length == 5)
-        telefone.value = telefone.value + '.';
-
-    if(telefone.value.length == 10)
+        if(telefone.value.length == 8)
         telefone.value = telefone.value + '-';
 
         telefone.setAttribute("maxlength", "13")
