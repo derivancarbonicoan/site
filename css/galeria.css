@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 480px;
+    height: auto;
+    margin: 150px auto;   
+    background-color: #ddd;
+}
+
+.principal{
+    width: 480px;
+    height: 270px;
+    border: solid 1px #000;
+    overflow: hidden;
+}
+
+.slide{
+    display: flex;
+    width: 400%;
+}
+
+label img{
+    width: 120px;
+    cursor: pointer;
+    float: left;
+}
+
+#foto2: :checked ~ .principal .slide{
+    margin-left: -100%;
+}
+
+#foto3: :checked ~ .principal .slide{
+    margin-left: -200%;
+}

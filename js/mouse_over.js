@@ -1,3 +1,0 @@
-function exibirMsg() {
-    alert("Teste");
-}
