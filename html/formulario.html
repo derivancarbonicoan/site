@@ -23,7 +23,7 @@
             Nome: <input type="text" name="fname">
             SobreNome: <input type="text" name="lname"><br><br>
             Data de Nascimento: <input type="date" name="nascimento"><br><br>
-            Telefone: <input type="tel" name="usertel"><br><br>
+            Telefone: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"> <br><br>
             CPF: <input oninput="mascaraCPF(this)" type="text"><br><br>
             RG: <input oninput="mascaraRG(this)" type="text"><br><br>
             Carteira de Trabalho: <input oninput="mascaraCarteiraTrabalho(this)" type="text"><br><br>
@@ -94,7 +94,26 @@
               Data Inicio: <input type="date" name="inicio"><br><br>
               Data Fim: <input type="date" name="fim"><br><br>
               Celular da Empresa: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"> <br><br>
-              Fixo da Empresa: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"> <br><br>
+              Fixo da Empresa: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneFixo(this)"> <br><br><br><br>
+
+              Empregos que Teve:<br><br>
+              Empresa que Trabalhou: <input type="text" name="empregos"><br><br>
+              Data Inicio: <input type="date" name="inicio"><br><br>
+              Data Fim: <input type="date" name="fim"><br><br>
+              Celular da Empresa: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"> <br><br>
+              Fixo da Empresa: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneFixo(this)"> <br><br><br><br>
+
+              Referencias Pessoais:<br><br><br>
+              Nome: <input type="text" name="fname"><br><br>       
+              Telefone: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"> <br><br>
+              Nome: <input type="text" name="fname"> <br><br>
+              Telefone: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"> <br><br>
+
+              <label for="textarea">Cargo Pretendido:</label>
+              <br><br>
+                <textarea id="w3review" name="w3review" rows="4" cols="60">
+                 Deixe neste campo o cargo que pretende e pretensão salarial.
+                </textarea>
 
         </form>
 
