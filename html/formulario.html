@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!--Estilos-->
+    
+        <link href="../css/normalize.css" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet">
+        <script type="text/javascript" src="../js/mascara.js"></script>
+
+        <title>Trabalhe Conosco</title>
 
     </head>
 
@@ -13,6 +23,8 @@
             SobreNome: <input type="text" name="lname"><br><br>
             Data de nascimento: <input type="date" name="nascimento"><br><br>
             Telefone: <input type="tel" name="usertel"><br><br>
+            CPF: <input oninput="mascaraCPF(this)" type="text"><br><br>
+            RG: <input oninput="mascaraRG(this)" type="text"><br><br>
             
            
         </form>
