@@ -11,6 +11,9 @@
         <link href="../css/normalize.css" rel="stylesheet">
         <link href="../css/style.css" rel="stylesheet">
         <script type="text/javascript" src="../js/galeria.js"></script>
+
+        <link rel="stylesheet" href="../dist/css/lightbox.min.css">
+        <link rel="stylesheet" href="css/styles.css">
     
         <title>SemiNovos - Baggeto</title>
 
@@ -19,6 +22,7 @@
     <body>
         <br><br>
        <section id="empresa">
+
         <img src="../img/seminovos/v8/v8.jpg" width="150px" height="150px">
         <img src="../img/seminovos/v8/v8-2.jpg" width="150px" height="150px">
         <img src="../img/seminovos/v8/v8-3.jpg" width="150px" height="150px">
@@ -48,72 +52,24 @@
         </section>
 
         <section>
-
-            <h2 style="text-align:center">Lightbox</h2>
-
-            <div class="row">
-              <div class="column">
-                <img src="../img/seminovos/v8/v8.jpg" style="width:50%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-              </div>
-              <div class="column">
-                <img src="../img/seminovos/v8/v8-2.jpg" style="width:50%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-              </div>
-              <div class="column">
-                <img src="../img/seminovos/v8/v8-3.jpg" style="width:50%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-              </div>
-              <div class="column">
-                <img src="../img/seminovos/v8/v8-4.jpg" style="width:50%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-              </div>
-            </div>
-            
-            <div id="myModal" class="modal">
-              <span class="close cursor" onclick="closeModal()">&times;</span>
-              <div class="modal-content">
-            
-                <div class="mySlides">
-                  <div class="numbertext">1 / 4</div>
-                  <img src="../img/seminovos/v8/v8.jpg" style="width:100%">
-                </div>
-            
-                <div class="mySlides">
-                  <div class="numbertext">2 / 4</div>
-                  <img src="../img/seminovos/v8/v8-2.jpg" style="width:100%">
-                </div>
-            
-                <div class="mySlides">
-                  <div class="numbertext">3 / 4</div>
-                  <img src="../img/seminovos/v8/v8-3.jpg" style="width:100%">
-                </div>
-                
-                <div class="mySlides">
-                  <div class="numbertext">4 / 4</div>
-                  <img src="../img/seminovos/v8/v8-4.jpg" style="width:100%">
-                </div>
-                
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            
-                <div class="caption-container">
-                  <p id="caption"></p>
-                </div>
-            
-            
-                <div class="column">
-                  <img class="demo cursor" src="../img/seminovos/v8/v8.jpg" style="width:100%" onclick="currentSlide(1)" alt="">
-                </div>
-                <div class="column">
-                  <img class="demo cursor" src="../img/seminovos/v8/v8-2.jpg" style="width:100%" onclick="currentSlide(2)" alt="">
-                </div>
-                <div class="column">
-                  <img class="demo cursor" src="../img/seminovos/v8/v8-3.jpg" style="width:100%" onclick="currentSlide(3)" alt="">
-                </div>
-                <div class="column">
-                  <img class="demo cursor" src="../img/seminovos/v8/v8-4.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
-                </div>
-              </div>
-            </div>
-
+          <h3>Two Individual Images</h3>
+          <div>
+            <a class="example-image-link" href="../img/seminovos/v8/v8.jpg" data-lightbox="example-1"><img class="example-image" src="../img/seminovos/v8/v8.jpg" alt="image-1" width="150px" height="150px" /></a>
+            <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-2.jpg" data-lightbox="example-2" data-title="Optional caption."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-2.jpg" alt="image-1"/></a>
+          </div>
+      
+          <h3>A Four Image Set</h3>
+          <div>
+            <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a>
+            <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg" alt="" /></a>
+            <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-5.jpg" alt="" /></a>
+            <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-6.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-6.jpg" alt="" /></a>
+          </div>
         </section>
+
+        <script src="js/lightbox-plus-jquery.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
+        <script src="js/app.js"></script>
 
     </body>
 
