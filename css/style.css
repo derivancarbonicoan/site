@@ -5,6 +5,13 @@
         text-align: center;
     }
 
+    .titulo_azul_menor {
+      color: #005b7f;
+      font-size: 25px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align: center;
+  }
+
     textarea {
 
         font-size: .8rem;
