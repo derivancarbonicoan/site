@@ -14,6 +14,13 @@
     
         <title>SemiNovos - Baggeto</title>
 
+        <script src="js/jquery-1.7.2.min.js"></script>
+        <script src="js/lightbox.js"></script>
+  
+        <link href="css/lightbox.css" rel="stylesheet" />
+ 
+
+
     </head>
 
     <body>
@@ -47,6 +54,43 @@
         <img src="../img/seminovos/v8/v8-25.jpg" width="150px" height="150px">
       
      </section>
+
+
+     
+       <script type="text/javascript">
+        $(function() {
+            $('#gallery a').lightBox();
+        });
+        </script>
+        <style type="text/css">
+        /* jQuery lightBox plugin - Gallery style */
+        #gallery {
+            background-color: #fff;
+            padding: 10px;
+            width: auto;
+        }
+        #gallery ul { list-style: none; }
+        #gallery ul li { display: inline; }
+        #gallery ul img {
+            border: 5px solid #005b7f;
+            border-width: 5px 5px 20px;
+        }
+        #gallery ul a:hover img {
+            border: 5px solid #b11116;
+            border-width: 5px 5px 20px;
+            color: #b11116;
+        }
+        #gallery ul a:hover { color: #fff; }
+        </style>
+
+
+<div id="gallery">
+    <ul>
+      <li>    <a href="../img/seminovos/v8/v8.jpg" rel="lightbox" title="Imagem 1"><img src="../img/seminovos/v8/v8.jpg" width="160" height="160" alt="" title="Img#1" /></a>
+    <a href="../img/seminovos/v8/v8.jpg" rel="lightbox" title="Imagem 2"><img src="../img/seminovos/v8/v8-2.jpg" width="160" height="160" alt="" title="Img#2" /></a>
+    <a href="../img/seminovos/v8/v8.jpg" rel="lightbox" title="Imagem 3"><img src="../img/seminovos/v8/v8-3.jpg" width="160" height="160" alt="" title="Img#3" /></a>
+    </li><br /></ul>
+    
 
     </body>
 
