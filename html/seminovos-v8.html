@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html>
     <head>
 
         <meta charset="UTF-8">
@@ -10,86 +9,254 @@
     
         <link href="../css/normalize.css" rel="stylesheet">
         <link href="../css/style.css" rel="stylesheet">
+        <link href="../css/galeria.css" rel="stylesheet">
         <script type="text/javascript" src="../js/galeria.js"></script>
-    
+            
         <title>SemiNovos - Baggeto</title>
 
-        <script src="js/jquery-1.7.2.min.js"></script>
-        <script src="js/lightbox.js"></script>
-  
-        <link href="css/lightbox.css" rel="stylesheet" />
- 
     </head>
 
-    <body>
-        <br><br>
-       <section id="empresa">
+<body>
 
-        <img src="../img/seminovos/v8/v8.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-2.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-3.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-4.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-5.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-6.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-7.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-8.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-9.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-10.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-11.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-12.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-13.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-14.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-15.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-16.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-17.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-18.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-19.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-20.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-21.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-22.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-23.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-24.jpg" width="150px" height="150px">
-        <img src="../img/seminovos/v8/v8-25.jpg" width="150px" height="150px">
-      
-     </section>
+<br><br>
+
+  <section id="empresa">
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8.jpg" width="150px" height="150px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-2.jpg" width="150px" height="150px" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-3.jpg" width="150px" height="150px" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-4.jpg" width="150px" height="150px" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-5.jpg" width="150px" height="150px" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-6.jpg" width="150px" height="150px" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-7.jpg" width="150px" height="150px" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-8.jpg" width="150px" height="150px" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-9.jpg" width="150px" height="150px" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-10.jpg" width="150px" height="150px" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-11.jpg" width="150px" height="150px" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-12.jpg" width="150px" height="150px" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-13.jpg" width="150px" height="150px" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-14.jpg" width="150px" height="150px" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-15.jpg" width="150px" height="150px" onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-16.jpg" width="150px" height="150px" onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-17.jpg" width="150px" height="150px" onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-18.jpg" width="150px" height="150px" onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-19.jpg" width="150px" height="150px" onclick="openModal();currentSlide(18)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-20.jpg" width="150px" height="150px" onclick="openModal();currentSlide(19)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-21.jpg" width="150px" height="150px" onclick="openModal();currentSlide(20)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-22.jpg" width="150px" height="150px" onclick="openModal();currentSlide(21)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-23.jpg" width="150px" height="150px" onclick="openModal();currentSlide(22)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-24.jpg" width="150px" height="150px" onclick="openModal();currentSlide(23)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/seminovos/v8/v8-25.jpg" width="150px" height="150px" onclick="openModal();currentSlide(24)" class="hover-shadow cursor">
+  </div>
+
+</section>
 
 
-     
-       <script type="text/javascript">
-        $(function() {
-            $('#gallery a').lightBox();
-        });
-        </script>
-        <style type="text/css">
-        /* jQuery lightBox plugin - Gallery style */
-        #gallery {
-            background-color: #fff;
-            padding: 10px;
-            width: auto;
-        }
-        #gallery ul { list-style: none; }
-        #gallery ul li { display: inline; }
-        #gallery ul img {
-            border: 5px solid #005b7f;
-            border-width: 5px 5px 5px;
-        }
-        #gallery ul a:hover img {
-            border: 5px solid #b11116;
-            border-width: 5px 5px 5px;
-            color: #b11116;
-        }
-        #gallery ul a:hover { color: #fff; }
-        </style>
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
 
+    <div class="mySlides">
+      <div class="numbertext">1 / 25</div>
+      <img src="../img/seminovos/v8/v8.jpg" style="width:100%">
+    </div>
 
-<div id="gallery">
-    <ul>
-      <li>    <a href="../img/seminovos/v8/v8.jpg" rel="lightbox" title="Imagem 1"><img src="../img/seminovos/v8/v8.jpg" width="160" height="160" alt="" title="Img#1" /></a>
-    <a href="../img/seminovos/v8/v8.jpg" rel="lightbox" title="Imagem 2"><img src="../img/seminovos/v8/v8-2.jpg" width="160" height="160" alt="" title="Img#2" /></a>
-    <a href="../img/seminovos/v8/v8.jpg" rel="lightbox" title="Imagem 3"><img src="../img/seminovos/v8/v8-3.jpg" width="160" height="160" alt="" title="Img#3" /></a>
-    </li><br /></ul>
+    <div class="mySlides">
+      <div class="numbertext">2 / 25</div>
+      <img src="../img/seminovos/v8/v8-2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 25</div>
+      <img src="../img/seminovos/v8/v8-3.jpg" style="width:100%">
+    </div>
     
+    <div class="mySlides">
+      <div class="numbertext">4 / 25</div>
+      <img src="../img/seminovos/v8/v8-4.jpg" style="width:100%">
+    </div>
 
-    </body>
+    <div class="mySlides">
+      <div class="numbertext">5 / 25</div>
+      <img src="../img/seminovos/v8/v8-5.jpg" style="width:100%">
+    </div>
 
+    <div class="mySlides">
+      <div class="numbertext">6 / 25</div>
+      <img src="../img/seminovos/v8/v8-6.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 25</div>
+      <img src="../img/seminovos/v8/v8-7.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">8 / 25</div>
+      <img src="../img/seminovos/v8/v8-8.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">9 / 25</div>
+      <img src="../img/seminovos/v8/v8-9.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">10 / 25</div>
+      <img src="../img/seminovos/v8/v8-10.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">11 / 25</div>
+      <img src="../img/seminovos/v8/v8-11.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">12 / 25</div>
+      <img src="../img/seminovos/v8/v8-12.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">13 / 25</div>
+      <img src="../img/seminovos/v8/v8-13.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">14 / 25</div>
+      <img src="../img/seminovos/v8/v8-14.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">15 / 25</div>
+      <img src="../img/seminovos/v8/v8-15.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">16 / 25</div>
+      <img src="../img/seminovos/v8/v8-16.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">17 / 25</div>
+      <img src="../img/seminovos/v8/v8-17.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">18 / 25</div>
+      <img src="../img/seminovos/v8/v8-18.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">19 / 25</div>
+      <img src="../img/seminovos/v8/v8-19.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">20 / 25</div>
+      <img src="../img/seminovos/v8/v8-20.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">21 / 25</div>
+      <img src="../img/seminovos/v8/v8-21.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">22 / 25</div>
+      <img src="../img/seminovos/v8/v8-22.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">23 / 25</div>
+      <img src="../img/seminovos/v8/v8-23.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">24 / 25</div>
+      <img src="../img/seminovos/v8/v8-24.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">25 / 25</div>
+      <img src="../img/seminovos/v8/v8-25.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    
+</body>
 </html>
