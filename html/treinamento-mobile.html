@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html>
     <head>
 
         <meta charset="UTF-8">
@@ -10,22 +9,69 @@
     
         <link href="../css/normalize.css" rel="stylesheet">
         <link href="../css/style.css" rel="stylesheet">
-    
+        <link href="../css/galeria.css" rel="stylesheet">
+        <script type="text/javascript" src="../js/galeria.js"></script>
+            
         <title>Eventos - Baggeto</title>
 
     </head>
 
-    <body>
-        <br><br>
-        <section id="empresa">
-            
-            <img src="../img/eventos/Treinamento Mobil/1.jpg" width="100px" height="100px">
-            <img src="../img/eventos/Treinamento Mobil/2.jpg" width="100px" height="100px">
-            <img src="../img/eventos/Treinamento Mobil/3.jpg" width="100px" height="100px">
-            <img src="../img/eventos/Treinamento Mobil/4.jpg" width="100px" height="100px">
-           
-        </section>
+<body>
 
-    </body>
+<br><br>
 
+  <section id="empresa">
+
+  <div class="column">
+    <img src="../img/eventos/Treinamento Mobil/1.jpg" width="150px" height="150px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/eventos/Treinamento Mobil/2.jpg" width="150px" height="150px" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/eventos/Treinamento Mobil/3.jpg" width="150px" height="150px" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="../img/eventos/Treinamento Mobil/4.jpg" width="150px" height="150px" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+
+</section>
+
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="../img/eventos/Treinamento Mobil/1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="../img/eventos/Treinamento Mobil/2.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="../img/eventos/Treinamento Mobil/3.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="../img/eventos/Treinamento Mobil/4.jpg" style="width:100%">
+      </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    
+
+</body>
 </html>
