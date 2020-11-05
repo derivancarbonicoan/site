@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!--Estilos-->
+    
+        <link href="../css/normalize.css" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet">
+     
+        <title>Login - Baggeto</title>
+
+        <script>
+            function validarSenha(){
+                senha1 = document.f1.senha1.value
+                senha2 = document.f1.senha2.value
+             
+                if (senha1 == senha2 & senha1 != ""){
+                 
+                    window.location.href = "https://derivancarbonicoan.github.io/site/html/eventos.html";
+                }
+
+                 
+                else
+                    alert("Chave de Acesso Inválida!")
+            }
+            </script>
+
+    </head>
+
+<body>
+
+    <section id="empresa">
+
+        <div>
+            <h3>Informe a Chave de Acesso:</h3>
+        </div>
+
+        
+
+    </section>
+
+
+    <section id="empresa">
+
+        <div>
+    <br>
+<br>
+<form action="" name="f1">
+Senha: <input type="password" name="senha1" size="20">
+<br><br>
+Confirmar Senha: <input type="password" name="senha2" size="20">
+<br><br>
+
+<div>
+<input type="button" value="Acessar" onClick="validarSenha()">
+</div>
+
+</form>
+
+</div>
+
+</section>
+
+
+    
+
+</body>
+</html>
