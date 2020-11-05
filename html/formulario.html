@@ -29,28 +29,66 @@
         <form id="empresa">
 
           <div>
-            <br>
-            Dados Pessoais:<br><br><br><br><br><br><br><br>
+         <i>Dados Pessoais:</i>
+        </div>
+
+          <div>
+             <br><br><br><br>
+            E-mail: <input type="email" name="e-mail">
           </div>
 
           <div>
-            <br><br>
-            Endereço de E-mail: <input type="email" name="e-mail" placeholder="digite seu e-mail aqui">
+            <br>
+            Nome: <input type="text" name="fname"></div>
           </div>
-            <br><br>
-          <div>Nome: <input type="text" name="fname"></div>
-            <div>SobreNome: <input type="text" name="lname"></div>
+
+          <div>
+            <br>
+            SobreNome: <input type="text" name="lname">
+          </div>
+
+          <div>
+            <br>
+            Data de Nascimento: <input type="date" name="nascimento">
+          </div>
             
-            Data de Nascimento: <input type="date" name="nascimento"><br><br>
-            Telefone: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"> <br><br>
-            CPF: <input oninput="mascaraCPF(this)" type="text"><br><br>
-            RG: <input oninput="mascaraRG(this)" type="text"><br><br>
-            Carteira de Trabalho: <input oninput="mascaraCarteiraTrabalho(this)" type="text"><br><br>
-            Endereço: <input type="text" name="endereco"><br><br>
-            Cidade: <input type="text" name="cidade"><br><br>
+          <div>
+            <br>
+          
+            Telefone: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"> <br>
+          </div>
 
-       
+          <div>
+            <br>
+          
+            CPF: <input oninput="mascaraCPF(this)" type="text"><br>
+          </div>
 
+          <div>
+            <br>
+          
+            RG: <input oninput="mascaraRG(this)" type="text"><br>
+          </div>
+
+          <div>
+            <br>
+          
+            Carteira de Trabalho: <input oninput="mascaraCarteiraTrabalho(this)" type="text"><br>
+          </div>
+
+          <div>
+            <br>
+          
+            Endereço: <input type="text" name="endereco"><br>
+          </div>
+
+          <div>
+            <br>
+          
+            Cidade: <input type="text" name="cidade"><br>
+          </div>
+     
+          <div>
             UF:
             <select name="estados-brasil">
                 <option value="AC">Acre</option>
@@ -81,13 +119,28 @@
                 <option value="SE">Sergipe</option>
                 <option value="TO">Tocantins</option>
             </select><br><br>
+          </div>
 
+          <div>
             CEP: <input oninput="mascaraCep(this)" type="text"><br><br>     
+          </div>
+
+          <div>
             Número Carteira Habilitação: <input oninput="mascaraHabilitacao(this)" type="text"><br><br>     
+          </div>
+
+          <div>
             Data de Vencimento: <input type="date" name="vencimento"><br><br>
+          </div>            
+
+          <div>
             Data de Emissão: <input type="date" name="emissao"><br><br>
+          </div>
+
+          <div>
             Data da Primeira Habilitação: <input type="date" name="pHabilitacao"><br><br>
 
+          </div>
             
             <div>
 
@@ -95,61 +148,108 @@
 
                 <input type="checkbox" id="scales" name="scales">
                 <label for="scales">A</label>
-              
-              
-            
+                <br>
+
                 <input type="checkbox" id="horns" name="horns">
                 <label for="horns">B</label>
-             
+                <br>
 
-            
                 <input type="checkbox" id="scales" name="scales">
                 <label for="scales">C</label>
-           
-              
-          
+                <br>
+
                 <input type="checkbox" id="horns" name="horns">
                 <label for="horns">D</label>
+                
               </div>
 
               <br><br>
 
-              Empregos que Teve:<br><br>
-              Empresa que Trabalhou: <input type="text" name="empregos"><br><br>
-              Data Inicio: <input type="date" name="inicio"><br><br>
-              Data Fim: <input type="date" name="fim"><br><br>
-              Celular da Empresa: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"> <br><br>
-              Fixo da Empresa: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneFixo(this)"> <br><br><br><br>
+              <div>
+              <i>Empregos que Teve:</i>
+            </div>
 
-              Empregos que Teve:<br><br>
-              Empresa que Trabalhou: <input type="text" name="empregos"><br><br>
-              Data Inicio: <input type="date" name="inicio"><br><br>
-              Data Fim: <input type="date" name="fim"><br><br>
-              Celular da Empresa: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"> <br><br>
-              Fixo da Empresa: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneFixo(this)"> <br><br><br><br>
+            <div>
+              Empresa que Trabalhou: <input type="text" name="empregos"><br>
+            </div>
 
-              Referencias Pessoais:<br><br><br>
-              Nome: <input type="text" name="fname"><br><br>       
-              Telefone: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"> <br><br>
-              Nome: <input type="text" name="fname"> <br><br>
-              Telefone: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"> <br><br>
+            <div>
+              Data Inicio: <input type="date" name="inicio"><br>
+            </div>
 
+            <div>
+              Data Fim: <input type="date" name="fim"><br>
+            </div>
+
+            <div>
+              Celular da Empresa: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"> <br>
+            </div>
+
+            <div>
+              Fixo da Empresa: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneFixo(this)"> <br>
+            </div>
+
+            <div>
+              <i>Empregos que Teve:</i>
+            </div>
+
+            <div>
+              Empresa que Trabalhou: <input type="text" name="empregos"><br>
+            </div>
+
+            <div>
+              Data Inicio: <input type="date" name="inicio"><br>
+            </div>
+
+            <div>
+              Data Fim: <input type="date" name="fim"><br>
+            </div>
+
+            <div>
+              Celular da Empresa: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"> <br>
+            </div>
+
+            <div>
+              Fixo da Empresa: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneFixo(this)"> <br>
+            </div>
+
+            <div>
+
+              Referencias Pessoais:<br>
+            </div>
+
+            <div>
+              Nome: <input type="text" name="fname"><br>
+            </div>
+
+            <div>
+              Telefone: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"> <br>
+            </div>
+
+            <div>
+              Nome: <input type="text" name="fname"> <br>
+            </div>
+
+            <div>
+              Telefone: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"> <br>
+            </div>
+
+            <div>
               <label for="textarea">Cargo Pretendido:</label>
-              <br><br>
           
                 <p>
                   <textarea name="textarea" rows="4" cols="60" placeholder="Deixe neste campo o cargo que pretende e pretensão salarial."></textarea>
-                  <br><br><br>
+                  <br><br>
                   </p>
                  
                   <div>
                     <button class="botao" type="submit">Enviar Currículo</button>  
-                   <br><br><br><br>
+                 
                   </div>
 
-        </form>
+                </div>
 
-        
+        </form>
 
     </body>
 
