@@ -13,22 +13,31 @@
         <title>Login - Baggeto</title>
 
         <script>
-            function validarSenha(){
-                senha1 = document.f1.senha1.value
-                
-             
-                if (senha1 == "baggeto1020"){
-                 
-                    window.location.href = "https://derivancarbonicoan.github.io/site/html/eventos.html";
-                }
 
-                 
-                else
-                    alert("Chave de Acesso Inválida!")
-            }
+            
+
             </script>
 
-    </head>
+<script>  
+
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+
+    function validarSenha(){
+
+senha1 = document.f1.senha1.value
+
+if (senha1 == "baggeto1020"){
+    window.location.href = "https://derivancarbonicoan.github.io/site/html/eventos.html";
+}
+ 
+else
+    alert("Chave de Acesso Inválida!")
+}
+    </script>
+
+    </head>       
 
 <body>
 
@@ -36,9 +45,7 @@
 
         <div>
             <h3>Informe a Chave de Acesso:</h3>
-        </div>
-
-        
+        </div>    
 
     </section>
 
@@ -46,15 +53,18 @@
     <section id="empresa">
 
         <div>
-    <br>
+ 
 <br>
 <form action="" name="f1">
-Senha: <input type="password" name="senha1" size="20">
+Chave: <input autofocus type="password" name="senha1" size="20">
 
+<a href="#" data-toggle="tooltip" title="Acessar"><input  type="button" value=">" onClick="validarSenha()"></a>
+
+    
 
 <div>
     <br>
-<input type="button" value="Acessar" onClick="validarSenha()">
+
 </div>
 
 </form>
@@ -62,9 +72,6 @@ Senha: <input type="password" name="senha1" size="20">
 </div>
 
 </section>
-
-
-    
 
 </body>
 </html>
