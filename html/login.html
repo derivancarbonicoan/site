@@ -18,7 +18,11 @@
 
             </script>
 
-<script>    
+<script>  
+
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
 
     function validarSenha(){
 
@@ -33,10 +37,9 @@ else
 }
     </script>
 
-    </head>
+    </head>       
 
 <body>
-
 
     <section id="empresa">
 
@@ -50,14 +53,18 @@ else
     <section id="empresa">
 
         <div>
-    <br>
+ 
 <br>
 <form action="" name="f1">
-Chave: <input  type="password" name="senha1" size="20">
+Chave: <input autofocus type="password" name="senha1" size="20">
+
+<a href="#" data-toggle="tooltip" title="Acessar"><input  type="button" value=">" onClick="validarSenha()"></a>
+
+    
 
 <div>
     <br>
-<input type="button" value="Acessar" onClick="validarSenha()">
+
 </div>
 
 </form>
