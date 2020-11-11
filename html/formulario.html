@@ -14,8 +14,402 @@
 
     </head>
 
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      input[type=text], select, textarea, input[type=date] {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+      
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+      
+      input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: #005b7f;
+        padding: 20px;
+      }
+      
+      .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+      }
+      
+      .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .col-25, .col-75, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+        }
+      }
+      </style>
+
     <body>
 
+
+      <div class="container">
+        <form action="/action_page.php">
+          
+          <div class="row">
+            
+            <div class="col-25">
+              <label for="fname">Nome</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Seu Nome..">
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Sobre Nome</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Seu SobreNome..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Data Nascimento</label>
+            </div>
+            <div class="col-75">
+              <input type="date" id="lname" name="data-nascimento">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Telefone</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="telefone" placeholder="Seu Telefone..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">CPF</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="CPF" placeholder="Seu CPF..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">RG</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="rg" placeholder="Seu RG..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Carteira de Trabalho</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="carteira" placeholder="Número da sua Carteira de Trabalho..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Endereço</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="endereco" placeholder="Seu Endereço..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Cidade</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="cidade" placeholder="Sua Cidade..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="country">UF</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+                <option value="AC">Acre</option>
+                  <option value="AL">Alagoas</option>
+                  <option value="AP">Amapá</option>
+                  <option value="AM">Amazonas</option>
+                  <option value="BA">Bahia</option>
+                  <option value="CE">Ceará</option>
+                  <option value="DF">Distrito Federal</option>
+                  <option value="ES">Espírito Santo</option>
+                  <option value="GO">Goiás</option>
+                  <option value="MA">Maranhão</option>
+                  <option value="MT">Mato Grosso</option>
+                  <option value="MS">Mato Grosso do Sul</option>
+                  <option value="MG">Minas Gerais</option>
+                  <option value="PA">Pará</option>
+                  <option value="PB">Paraíba</option>
+                  <option value="PR">Paraná</option>
+                  <option value="PE">Pernambuco</option>
+                  <option value="PI">Piauí</option>
+                  <option value="RJ">Rio de Janeiro</option>
+                  <option value="RN">Rio Grande do Norte</option>
+                  <option value="RS">Rio Grande do Sul</option>
+                  <option value="RO">Rondônia</option>
+                  <option value="RR">Roraima</option>
+                  <option value="SC">Santa Catarina</option>
+                  <option value="SP">São Paulo</option>
+                  <option value="SE">Sergipe</option>
+                  <option value="TO">Tocantins</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Cep</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="cep" placeholder="Seu CEP..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Número Carteira de Habilitação</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="habilitacao" placeholder="Número da sua carteira de Habilitação..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Data Vencimento</label>
+            </div>
+            <div class="col-75">
+              <input type="date" id="lname" name="vencimento">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Data Emissão</label>
+            </div>
+            <div class="col-75">
+              <input type="date" id="lname" name="data-emissao">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Data da primeira Habilitação</label>
+            </div>
+            <div class="col-75">
+              <input type="date" id="lname" name="data-primeira">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Tipo</label>
+            </div>
+            <div class="col-75">
+              <input type="checkbox" id="scales" name="scales">
+              <label for="scales">A</label>
+            
+              <input type="checkbox" id="horns" name="horns">
+              <label for="horns">B</label>
+
+              <input type="checkbox" id="scales" name="scales">
+              <label for="scales">C</label>
+
+              <input type="checkbox" id="horns" name="horns">
+              <label for="horns">D</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Empresa que Trabalhou</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="empresa" placeholder="Empresa que Trabalhou..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Data Inicio</label>
+            </div>
+            <div class="col-75">
+              <input type="date" id="lname" name="data-inicio">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Data Fim</label>
+            </div>
+            <div class="col-75">
+              <input type="date" id="lname" name="data-fim">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Celular da Empresa</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="empresa" placeholder="Celular da Empresa..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Fixo da Empresa</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="empresa" placeholder="Fixo da Empresa..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Empresa que Trabalhou</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="empresa" placeholder="Empresa que Trabalhou..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Data Inicio</label>
+            </div>
+            <div class="col-75">
+              <input type="date" id="lname" name="data-inicio">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Data Fim</label>
+            </div>
+            <div class="col-75">
+              <input type="date" id="lname" name="data-fim">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Celular da Empresa</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="empresa" placeholder="Celular da Empresa..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Fixo da Empresa</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="empresa" placeholder="Fixo da Empresa..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Nome</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="empresa" placeholder="Nome da Pessoa..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Telefone</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="empresa" placeholder="Seu Telefone..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Nome</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="empresa" placeholder="Nome da Pessoa..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Telefone</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="empresa" placeholder="Seu Telefone..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Cargo Pretendido</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Deixe neste campo o cargo que pretende e pretensão salarial.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Enviar Currículo">
+          </div>
+        </form>
+      </div>
+
+      
         <form id="empresa">
 
           <div>
