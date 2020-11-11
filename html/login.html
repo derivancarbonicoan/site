@@ -30,11 +30,47 @@ else
 
     </head>       
 
+
+    <style>
+     .container {
+width: 100vw;
+height: 100vh;
+
+background-image: url("../img/fundo_login.png");
+background-repeat: no-repeat;
+background-size: 100%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center
+}
+.box {
+width: 400px;
+height: 300px;
+background:#005b7f;
+}
+body {
+margin: 0px;
+}
+h3{
+    color: white;
+}
+
+    </style>
+
 <body>
 
-    <section id="empresa">
+    
 
+   <div class="container">
+<div class="box">
+
+    <section id="empresa">
+        <br><br>
+        
         <div>
+            
+            <br><br><br><br>
             <h3>Informe a Chave de Acesso:</h3>
         </div>    
 
@@ -45,20 +81,18 @@ else
 
         <div>
  
-<br>
-<form action="" name="f1">
-Chave: <input autofocus type="password" name="senha1" size="20">
 
-<a href="#" data-toggle="tooltip" title="Acessar"><input  type="button" value=">" onClick="validarSenha()"></a>
+
+<form action="" name="f1">
+<input autofocus type="password" name="senha1" size="20">
 
 <div>
     <br>
-
+    <a href="#" data-toggle="tooltip" title="Acessar"><input  type="button" value="Acessar" onClick="validarSenha()"></a>
+    
 </div>
 
 </form>
-
-</div>
 
 </section>
 
