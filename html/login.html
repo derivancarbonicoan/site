@@ -12,6 +12,15 @@
      
         <title>Login - Baggeto</title>
 
+        <script>
+            function handle(e){
+                if(e.keyCode === 13){
+                    e.preventDefault(); // Ensure it is only this code that runs
+        
+                    validarSenha()
+                }
+            }
+        </script>
 
 <script>  
 
@@ -84,7 +93,7 @@ h3{
 
 
 <form action="" name="f1">
-<input autofocus type="password" name="senha1" size="20">
+<input autofocus type="password" name="senha1" size="20" onkeypress="handle(event)">
 
 <div>
     <br>
