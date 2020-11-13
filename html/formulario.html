@@ -53,9 +53,10 @@
       }
 
       .container_2 {
-        border-radius: 5px;
+        border-radius: 15px;
         background-color: #005b7f;
         padding: 40px;
+        
       }
       
       .col-25 {
@@ -91,10 +92,13 @@
 
       <div class="container">
 
+       
+
         <form action="/action_page.php">
           
+          
           <section class="container_2">
-
+            <label for="fname">1 - Dados Pessoais</label><br>
           <div class="row">
             
             <div class="col-25">
@@ -277,6 +281,55 @@
               <label for="horns">D</label>
             </div>
           </div>
+          <br><br>
+          <label for="fname">2 - Empregos que Teve</label><br>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Empresa que Trabalhou</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="empresa" placeholder="Empresa que Trabalhou..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Data Inicio</label>
+            </div>
+            <div class="col-75">
+              <input type="date" id="lname" name="data-inicio">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Data Fim</label>
+            </div>
+            <div class="col-75">
+              <input type="date" id="lname" name="data-fim">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Celular da Empresa</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="empresa" placeholder="Celular da Empresa..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Fixo da Empresa</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="empresa" placeholder="Fixo da Empresa..">
+            </div>
+          </div>
+          <br><br>
+          <label for="fname">3 - Empregos que Teve</label><br>
 
           <div class="row">
             <div class="col-25">
@@ -323,50 +376,7 @@
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-25">
-              <label for="lname">Empresa que Trabalhou</label>
-            </div>
-            <div class="col-75">
-              <input type="text" id="lname" name="empresa" placeholder="Empresa que Trabalhou..">
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-25">
-              <label for="lname">Data Inicio</label>
-            </div>
-            <div class="col-75">
-              <input type="date" id="lname" name="data-inicio">
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-25">
-              <label for="lname">Data Fim</label>
-            </div>
-            <div class="col-75">
-              <input type="date" id="lname" name="data-fim">
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-25">
-              <label for="lname">Celular da Empresa</label>
-            </div>
-            <div class="col-75">
-              <input type="text" id="lname" name="empresa" placeholder="Celular da Empresa..">
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-25">
-              <label for="lname">Fixo da Empresa</label>
-            </div>
-            <div class="col-75">
-              <input type="text" id="lname" name="empresa" placeholder="Fixo da Empresa..">
-            </div>
-          </div>
+          
 
           <div class="row">
             <div class="col-25">
@@ -385,7 +395,8 @@
               <input type="text" id="lname" name="empresa" placeholder="Seu Telefone..">
             </div>
           </div>
-
+          <br><br>
+          <label for="fname">4 - Referências Pessoais</label><br>
           <div class="row">
             <div class="col-25">
               <label for="lname">Nome</label>
@@ -412,6 +423,7 @@
               <textarea id="subject" name="subject" placeholder="Deixe neste campo o cargo que pretende e pretensão salarial.." style="height:200px"></textarea>
             </div>
           </div>
+          <br>
           <div class="row">
             <input type="submit" value="Enviar Currículo"></center>
           </div>
