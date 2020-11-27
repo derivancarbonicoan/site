@@ -5,6 +5,11 @@
         text-align: center;
     }
 
+    .linha-vertical {
+      height: 200px;/*Altura da linha*/
+      border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    }
+
     .titulo_azul_menor {
       color: #005b7f;
       font-size: 25px;
