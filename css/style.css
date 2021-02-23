@@ -1,3 +1,7 @@
+    html{
+        scroll-behavior: smooth;
+    }
+    
     .titulo_azul {
         color: #005b7f;
         font-size: 45px;
