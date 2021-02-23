@@ -1,4 +1,8 @@
-    .titulo_azul {
+html{
+  scroll-behavior: smooth;
+}
+
+.titulo_azul {
         color: #005b7f;
         font-size: 45px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
