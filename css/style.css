@@ -1,8 +1,12 @@
+<<<<<<< Updated upstream
 html{
   scroll-behavior: smooth;
 }
 
 .titulo_azul {
+=======
+   .titulo_azul {
+>>>>>>> Stashed changes
         color: #005b7f;
         font-size: 45px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
