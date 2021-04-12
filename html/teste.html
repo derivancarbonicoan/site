@@ -13,263 +13,85 @@
 
     </head>   
 
-<body>
+    <body>
 
+      <nav id="menu">
+        
+        <li><a id="circulo" href="#conteudo1">__</a></li><br>
+        <li><a id="circulo" href="#conteudo2">__</a></li><br>
+        <li><a id="circulo" href="#conteudo3">__</a></li><br>
+        <li><a id="circulo" href="#conteudo4">__</a></li>
+      
+    </nav>
+
+    <section id="conteudo1">
+      <h1>Conteúdo 1</h1>
+    </section>
+    <section id="conteudo2">
+      <h1>Conteúdo 2</h1>
+    </section>
+    <section id="conteudo3">
+      <h1>Conteúdo 3</h1>
+    </section>
+    <section id="conteudo4">
+      <h1>Conteúdo 4</h1>
+    </section>
+    
     <style>
- 
- .form-style-10{
-	width:450px;
-	padding:30px;
-	margin:40px auto;
-	background: #FFF;
-	border-radius: 10px;
-	-webkit-border-radius:10px;
-	-moz-border-radius: 10px;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-}
-.form-style-10 .inner-wrap{
-	padding: 30px;
-	background: #F8F8F8;
-	border-radius: 6px;
-	margin-bottom: 15px;
-}
-.form-style-10 h1{
-	background: #2A88AD;
-	padding: 20px 30px 15px 30px;
-	margin: -30px -30px 30px -30px;
-	border-radius: 10px 10px 0 0;
-	-webkit-border-radius: 10px 10px 0 0;
-	-moz-border-radius: 10px 10px 0 0;
-	color: #fff;
-	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
-	font: normal 30px 'Bitter', serif;
-	-moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-	-webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-	border: 1px solid #257C9E;
-}
-.form-style-10 h1 > span{
-	display: block;
-	margin-top: 2px;
-	font: 13px Arial, Helvetica, sans-serif;
-}
-.form-style-10 label{
-	display: block;
-	font: 13px Arial, Helvetica, sans-serif;
-	color: #888;
-	margin-bottom: 15px;
-}
-.form-style-10 input[type="text"],
-.form-style-10 input[type="date"],
-.form-style-10 input[type="datetime"],
-.form-style-10 input[type="email"],
-.form-style-10 input[type="number"],
-.form-style-10 input[type="search"],
-.form-style-10 input[type="time"],
-.form-style-10 input[type="url"],
-.form-style-10 input[type="password"],
-.form-style-10 textarea,
-.form-style-10 select {
-	display: block;
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	width: 100%;
-	padding: 8px;
-	border-radius: 6px;
-	-webkit-border-radius:6px;
-	-moz-border-radius:6px;
-	border: 2px solid #fff;
-	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
-	-moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
-	-webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+
+li {
+  list-style-type: none;
 }
 
-.form-style-10 .section{
-	font: normal 20px 'Bitter', serif;
-	color: #2A88AD;
-	margin-bottom: 5px;
+a:link 
+{ 
+ text-decoration:none; 
+ color: transparent;
+} 
+
+body { font-family: Arial, Helvetica, sans-serif; color: #333; }
+html,body{height:100%;}
+
+section   {display: table; height:100%; text-align:center; width:100%;}
+section h1 {display: table-cell; vertical-align: middle; color:#424242; font-size:50px; }
+
+section#conteudo1 { background: #58beff; }
+section#conteudo2 { background: #fd8686; }
+section#conteudo3 { background: #acc8a7; }
+section#conteudo4 { background: #ffc741; }
+
+#circulo {
+  border-width: 3px;
+  border-style: solid;
+  border-color: #f00;
+  border-radius: 50%;
 }
-.form-style-10 .section span {
-	background: #2A88AD;
-	padding: 5px 10px 5px 10px;
-	position: absolute;
-	border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border: 4px solid #fff;
-	font-size: 14px;
-	margin-left: -45px;
-	color: #fff;
-	margin-top: -3px;
-}
-.form-style-10 input[type="button"], 
-.form-style-10 input[type="submit"]{
-	background: #2A88AD;
-	padding: 8px 20px 8px 20px;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	color: #fff;
-	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
-	font: normal 30px 'Bitter', serif;
-	-moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-	-webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-	border: 1px solid #257C9E;
-	font-size: 15px;
-}
-.form-style-10 input[type="button"]:hover, 
-.form-style-10 input[type="submit"]:hover{
-	background: #2A6881;
-	-moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
-	-webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
-	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
-}
-.form-style-10 .privacy-policy{
-	float: right;
-	width: 250px;
-	font: 12px Arial, Helvetica, sans-serif;
-	color: #4D4D4D;
-	margin-top: 10px;
-	text-align: right;
+
+#menu {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 6em;
+  margin-top: -2.5em;
 }
 
     </style>
- 
- <section>
 
-  <div class="form-style-10">
-    
-    <center><h1>Envie seu Currículo!</h1></center>
-    <form>
-      
-        <div class="section"><span>1</span>Dados Pessoais</div>
-        <div class="inner-wrap">
-          <label>E-Mail: <input type="email" name="e-mail"></label> 
-            <label>Nome Completo<input type="text" name="field1" /></label>
-            <label>Data de Nascimento: <input type="date" name="nascimento"></label>
-            <label>Telefone: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"></label>
-            <label>CPF: <input oninput="mascaraCPF(this)" type="text"></label>
-            <label>RG: <input oninput="mascaraRG(this)" type="text"></label>
-            <label>Carteira de Trabalho: <input oninput="mascaraCarteiraTrabalho(this)" type="text"></label>
-            <label>Endereço: <input type="text" name="endereco"></label>
-            <label>Cidade: <input type="text" name="cidade"></label>
-            <label>
-              UF:
-              <select name="estados-brasil">
-                  <option value="AC">Acre</option>
-                  <option value="AL">Alagoas</option>
-                  <option value="AP">Amapá</option>
-                  <option value="AM">Amazonas</option>
-                  <option value="BA">Bahia</option>
-                  <option value="CE">Ceará</option>
-                  <option value="DF">Distrito Federal</option>
-                  <option value="ES">Espírito Santo</option>
-                  <option value="GO">Goiás</option>
-                  <option value="MA">Maranhão</option>
-                  <option value="MT">Mato Grosso</option>
-                  <option value="MS">Mato Grosso do Sul</option>
-                  <option value="MG">Minas Gerais</option>
-                  <option value="PA">Pará</option>
-                  <option value="PB">Paraíba</option>
-                  <option value="PR">Paraná</option>
-                  <option value="PE">Pernambuco</option>
-                  <option value="PI">Piauí</option>
-                  <option value="RJ">Rio de Janeiro</option>
-                  <option value="RN">Rio Grande do Norte</option>
-                  <option value="RS">Rio Grande do Sul</option>
-                  <option value="RO">Rondônia</option>
-                  <option value="RR">Roraima</option>
-                  <option value="SC">Santa Catarina</option>
-                  <option value="SP">São Paulo</option>
-                  <option value="SE">Sergipe</option>
-                  <option value="TO">Tocantins</option>
-              </select>
-            </label>
-            <label>CEP: <input oninput="mascaraCep(this)" type="text"></label>
-            <label>Número Carteira Habilitação: <input oninput="mascaraHabilitacao(this)" type="text"></label>
-            <label>Data de Vencimento: <input type="date" name="vencimento"></label>
-            <label>Data de Emissão: <input type="date" name="emissao"></label>
-            <label>Data da Primeira Habilitação: <input type="date" name="pHabilitacao"></label>
-            <label>
-              Tipo:<br><br>
+    <script>
 
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">A</label>
+$("nav a").click(function(event){
+   event.preventDefault();
+   var dest=0;
+   if($(this.hash).offset().top > $(document).height()-$(window).height()){
+     dest=$(document).height()-$(window).height();
+   }else{
+     dest=$(this.hash).offset().top;
+   }
+   $('html,body').animate({scrollTop:dest}, 1000,'swing');
+ });
 
-                <input type="checkbox" id="horns" name="horns">
-                <label for="horns">B</label>
-                
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">C</label>
-               
-                <input type="checkbox" id="horns" name="horns">
-                <label for="horns">D</label>
-                
-              </label>
-        </div>
-    
-        <div class="section"><span>2</span>Empregos que Teve</div>
-        <div class="inner-wrap">
-          <label>Empresa que Trabalhou: <input type="text" name="empregos"><br></label>
-          <br>
-          <label>Data Inicio: <input type="date" name="inicio"><br></label>
-          <br>
-          <label>Data Fim: <input type="date" name="fim"><br></label>
-          <br>
-          <label>Celular da Empresa: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"> <br></label>
-          <br>
-          <label>Fixo da Empresa: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneFixo(this)"> <br></label>
-          <br><br>
-        </div>
-    
-        <div class="section"><span>3</span>Empregos que Teve</div>
-            <div class="inner-wrap">
-              <label>Empresa que Trabalhou: <input type="text" name="empregos"><br></label>
-              <br>
-              <label>Data Inicio: <input type="date" name="inicio"><br></label>
-              <br>
-              <label>Data Fim: <input type="date" name="fim"><br></label>
-              <br>
-              <label>Celular da Empresa: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"> <br></label>
-              <br>
-              <label>Fixo da Empresa: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneFixo(this)"> <br></label>
-              <br><br>
-        </div>
+    </script>
 
-        <div class="section"><span>2</span>Referências Pessoais</div>
-        <div class="inner-wrap">
-          <label>Nome: <input type="text" name="fname"><br></label>
-          <br>
-          <label>Telefone: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"> <br></label>
-          <br>
-          <label>Nome: <input type="text" name="fname"> <br></label>
-          <br>
-          <label>Telefone: <input type="text" name="telefone" id="telefone" size="20" maxlength="14" onkeypress="mascaraTelefoneCelular(this)"> <br></label>
-          <br><br>
-          <label for="textarea">Cargo Pretendido:</label>
-      
-            <p>
-              <textarea name="textarea" rows="4" cols="60" placeholder="Deixe neste campo o cargo que pretende e pretensão salarial."></textarea>
-              <br><br>
-              </p>
-        </div>
+    </body>
 
-        
-        <div class="button-section">
-          <center>
-         <input type="submit" name="Sign Up" />
-        </center>
-        
-        </div>
-      
-    </form>
-    </div>
-
-</section>
-
-</body>
 </html>

@@ -2,6 +2,14 @@ html{
   scroll-behavior: smooth;
 }
 
+.div_background{
+
+  background-color: #f2f2f2;
+  height: 100%;
+  width: 100%;
+
+}
+
 .titulo_azul {
         color: #005b7f;
         font-size: 45px;
@@ -184,7 +192,7 @@ html{
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        background-color: white;
+        background-color:#f2f2f2;
         text-align: center;
         padding: 20px;
         
