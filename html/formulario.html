@@ -9,92 +9,17 @@
         <link href="../css/normalize.css" rel="stylesheet">
         <link href="../css/formulario.css" rel="stylesheet">
         <script type="text/javascript" src="../js/mascara.js"></script>
+        <script type="text/javascript" src="../js/validar.js"></script>
 
         <title>Trabalhe Conosco</title>
 
     </head>
 
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-      
-      input[type=text], select, textarea, input[type=date] {
-        width: 100%;
-        padding: 12px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        resize: vertical;
-      }
-      
-      label {
-        padding: 12px 12px 12px 0;
-        display: inline-block;
-      }
-      
-      input[type=submit] {
-        background-color: #4CAF50;
-        color: white;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        float: right;
-      }
-      
-      input[type=submit]:hover {
-        background-color: #45a049;
-      }
-      
-      .container {
-        border-radius: 0px;
-        background-color: white;
-        padding: 20px;
-      }
-
-      .container_2 {
-        border-radius: 15px;
-        background-color: #005b7f;
-        padding: 40px;
-        
-      }
-      
-      .col-25 {
-        float: left;
-        width: 25%;
-        margin-top: 6px;
-      }
-      
-      .col-75 {
-        float: left;
-        width: 75%;
-        margin-top: 6px;
-      }
-      
-      /* Clear floats after the columns */
-      .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-      
-      /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-      @media screen and (max-width: 600px) {
-        .col-25, .col-75, input[type=submit] {
-          width: 100%;
-          margin-top: 0;
-        }
-      }
-      </style>
-
     <body>
 
-
       <div class="container">
-
        
-
-        <form action="/action_page.php">
+        <form name="formuser" action="/action_page.php" method="POST">
           
           
           <section class="container_2">
@@ -224,6 +149,27 @@
             </div>
             <div class="col-75">
               <input type="text" id="lname" name="cep" placeholder="Seu CEP..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Função</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+
+                <option value="Motorista">Motorista</option>
+                  <option value="Mecanico">Mecânico</option>
+                  <option value="Almoxarifado">Almoxarifado</option>
+                  <option value="Rastreador">Rastreador</option>
+                  <option value="Escritorio">Escritório</option>
+                  <option value="Lavacao">Lavação</option>
+                  <option value="Pintor">Pintor</option>
+                  <option value="Soldador">Soldador</option>
+                  <option value="A combinar">A Combinar...</option>
+                  
+              </select>
             </div>
           </div>
 
@@ -417,15 +363,15 @@
 
           <div class="row">
             <div class="col-25">
-              <label for="subject">Cargo Pretendido</label>
+              <label for="subject">Informações Adicionais</label>
             </div>
             <div class="col-75">
-              <textarea id="subject" name="subject" placeholder="Deixe neste campo o cargo que pretende e pretensão salarial.." style="height:200px"></textarea>
+              <textarea id="subject" name="subject" placeholder="Deixe neste campo alguma informação que você gostaria e que não esta nos campos acima. (Opcional)." style="height:200px"></textarea>
             </div>
           </div>
           <br>
           <div class="row">
-            <input type="submit" value="Enviar Currículo"></center>
+            <input type="submit" value="Enviar Currículo" onclick="return validar()"></center>
           </div>
             
           </section>
