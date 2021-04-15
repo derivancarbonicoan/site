@@ -12,6 +12,10 @@ function validar(){
     var habilitacao = formuser.habilitacao.value;
     var empresa9 = formuser.empresa9.value;
     var empresa10 = formuser.empresa10.value;
+    var dataNasc = document.getElementById("dataNasc");
+    var dataVenc = document.getElementById("dataVenc");
+    var dataEmi = document.getElementById("dataEmi");
+    var dataPri = document.getElementById("dataPri");
 
     if(nome == ""){
         alert('Preencha o campo nome para Continuar.')
@@ -84,5 +88,25 @@ function validar(){
         formuser.empresa10.focus();
         return false;
     }
+	
+    if(dataNasc.value == ''){
+    	alert("Data Nascimento não Preenchida!");
+    	return false;
+    }
 
+    if(dataVenc.value == ''){
+    	alert("Data Vencimento não Preenchida!");
+    	return false;
+    }
+
+    if(dataEmi.value == ''){
+    	alert("Data Emissão não Preenchida!");
+    	return false;
+    }
+
+    if(dataPri.value == ''){
+    	alert("Data Primeira Habilitação não Preenchida!");
+    	return false;
+    }
+    
 }
