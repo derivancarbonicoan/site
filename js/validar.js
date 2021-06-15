@@ -108,5 +108,9 @@ function validar(){
     	alert("Data Primeira Habilitação não Preenchida!");
     	return false;
     }
+
+    else{
+        alert("Passou!");
+    }
     
 }
