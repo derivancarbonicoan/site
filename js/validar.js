@@ -110,7 +110,7 @@ function validar(){
     }
 
     else{
-        alert("Passou!");
+        alert("Seu Formulário foi enviado com Sucesso! Entraremos em Contato.");
     }
     
 }

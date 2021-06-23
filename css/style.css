@@ -228,6 +228,21 @@ html{
         margin-top: 0px;
       }  
 
+      #empresa2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+      }
+      
+      #empresa2 div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        margin-top: 0px;
+      }  
+
 
       body {
         font-family: Verdana, sans-serif;
