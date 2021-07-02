@@ -111,6 +111,11 @@ function validar(){
 
     else{
         alert("Seu Formulário foi enviado com Sucesso! Entraremos em Contato.");
+        window.location.reload();
+       
     }
+    
+    formuser.firstname.focus();
+    return false;
     
 }
