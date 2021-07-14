@@ -2,50 +2,30 @@
 <html>
 <head>
     <title>JS Scroll Events</title>
-    <style>
-        #scrollDemo {
-            height: 200px;
-            width: 200px;
-            overflow: auto;
-            background-color: #f0db4f
-        }
-
-        #scrollDemo p {
-            /* show the scrollbar */
-            height: 300px;
-            width: 300px;
-        }
-    </style>
+    
 </head>
 <body>
-    <div id="scrollDemo">
-        <p>JS Scroll Event Demo</p>
-    </div>
+    
+    <p>
+        <label	for='email'>E-mail:</label>
+        <input	type='email'	id='email'>
+        <span	class='hint'>por	exemplo,	seunome@dominio.com.</span>
+        <span	class='error'>Preencha	o	seu	e-mail	corretamente.</span>
+        </p>
 
-    <div id="control">
-        <button id="btnScrollLeft">Scroll Left</button>
-        <button id="btnScrollTop">Scroll Top</button>
-    </div>
+    <style>
+   
+   .error	{
+color:	red;
+display:	block;
+font-size:	0.8em;
+font-style:	italic;
+margin:	5px	0	0	90px;
+}
+    </style>
 
     <script>
-        let control = document.querySelector('#control');
-
-        control.addEventListener('click', function (e) {
-            // get the scrollDemo
-            let div = document.getElementById('scrollDemo');
-            // get the target
-            let target = e.target;
-            // handle each button's click
-            switch (target.id) {
-                case 'btnScrollLeft':
-                    div.scrollLeft += 20;
-                    break;
-
-                case 'btnScrollTop':
-                    div.scrollTop += 20;
-                    break;
-            }
-        });
+      
     </script>
 </body>
 </html>
