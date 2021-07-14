@@ -10,6 +10,11 @@ html{
 
 }
 
+.whats{
+  position: fixed;
+  padding: 1% 1%;
+}
+
 .titulo_azul {
         color: #005b7f;
         font-size: 45px;
