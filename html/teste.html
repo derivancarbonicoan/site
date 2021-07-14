@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>JS Scroll Events</title>
+    <style>
+        #scrollDemo {
+            height: 200px;
+            width: 200px;
+            overflow: auto;
+            background-color: #f0db4f
+        }
 
-    <head>
+        #scrollDemo p {
+            /* show the scrollbar */
+            height: 300px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div id="scrollDemo">
+        <p>JS Scroll Event Demo</p>
+    </div>
 
-        <title>teste</title>
-        
-    </head>
+    <div id="control">
+        <button id="btnScrollLeft">Scroll Left</button>
+        <button id="btnScrollTop">Scroll Top</button>
+    </div>
 
-    <body>
+    <script>
+        let control = document.querySelector('#control');
 
-      <form> 
-        <input type="text" name="nome" value="Fulano de Tal">
-        <br>
-        <input type="text" name="email" value="fulano@site.com">
-        <br>
-        <button>Enviar</button>
-     </form>
+        control.addEventListener('click', function (e) {
+            // get the scrollDemo
+            let div = document.getElementById('scrollDemo');
+            // get the target
+            let target = e.target;
+            // handle each button's click
+            switch (target.id) {
+                case 'btnScrollLeft':
+                    div.scrollLeft += 20;
+                    break;
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-
-$("form").submit(function(e){
-   e.preventDefault();
-   var valores = []; // array para guardar os valores
-   for(var valor of $(this).serializeArray()){
-      valores.push(valor.value);
-   }
-   console.log(valores);
-});
-
-      </script>
-
-    </body>
-
+                case 'btnScrollTop':
+                    div.scrollTop += 20;
+                    break;
+            }
+        });
+    </script>
+</body>
 </html>

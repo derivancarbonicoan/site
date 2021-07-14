@@ -10,6 +10,11 @@ html{
 
 }
 
+.whats{
+  position: fixed;
+  padding: 1% 1%;
+}
+
 .titulo_azul {
         color: #005b7f;
         font-size: 45px;
@@ -221,6 +226,21 @@ html{
       }
       
       #empresa div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        margin-top: 0px;
+      }  
+
+      #empresa2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+      }
+      
+      #empresa2 div {
         display: flex;
         flex-direction: column;
         align-items: center;
