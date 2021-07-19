@@ -13,8 +13,8 @@ var remetente = nodemailer.createTransport({
     var emailASerEnviado = {
         from: 'ti@transportesbaggeto.com.br',
         to: 'ti@transportesbaggeto.com.br',
-        subject: 'Enviando Email com Node.js',
-        text: 'Estou te enviando este email com node.js',
+        subject: 'E-Mail Teste',
+        text: 'Estou te enviando este email teste para Video-Aula Baggeto',
         };
 
 
